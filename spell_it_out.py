@@ -7,5 +7,6 @@ def say_hi(name):
             print(letter)
 
 
-name = input("Your name: ")
-say_hi(name)
+while True:
+    name = input("Your name: ")
+    say_hi(name)
